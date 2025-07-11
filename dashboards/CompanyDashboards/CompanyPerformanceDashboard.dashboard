@@ -194,7 +194,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </middleSection>
-    <owner>swathidareddy5@gmail.com12.production</owner>
+    <owner>metadata1@gmail.com.production</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
@@ -259,7 +259,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </rightSection>
-    <runningUser>swathidareddy5@gmail.com12.production</runningUser>
+    <runningUser>metadata1@gmail.com.production</runningUser>
     <textColor>#000000</textColor>
     <title>Company Performance Dashboard</title>
     <titleColor>#000099</titleColor>

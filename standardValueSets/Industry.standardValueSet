@@ -161,4 +161,9 @@
         <default>false</default>
         <label>Utilities</label>
     </standardValue>
+    <standardValue>
+        <fullName>Sports</fullName>
+        <default>false</default>
+        <label>Sports</label>
+    </standardValue>
 </StandardValueSet>

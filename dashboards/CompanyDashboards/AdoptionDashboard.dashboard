@@ -136,7 +136,7 @@
             <title>Last 30 Days</title>
         </components>
     </middleSection>
-    <owner>swathidareddy5@gmail.com12.production</owner>
+    <owner>metadata1@gmail.com.production</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
@@ -312,7 +312,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </rightSection>
-    <runningUser>swathidareddy5@gmail.com12.production</runningUser>
+    <runningUser>metadata1@gmail.com.production</runningUser>
     <textColor>#000000</textColor>
     <title>Adoption Dashboard</title>
     <titleColor>#000099</titleColor>
