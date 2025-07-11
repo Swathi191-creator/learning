@@ -98,6 +98,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Account_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.AnnualRevenue</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1479,11 +1484,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Customer.TotalLifeTimeValue</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Customer_Feedback__c.Satisfaction_Score__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3041,34 +3041,11 @@
         <field>WorkOrderLineItem.UnitPrice</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>student__c.Contact__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>student__c.Email__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>student__c.First_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>student__c.Last_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>ConsumptionRate-Consumption Rate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Customer_Feedback__c-Customer Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout</layout>
@@ -3080,8 +3057,13 @@
         <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>student__c-student Layout</layout>
+        <layout>copado_demo__c-copado demo Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Copado_Accounts</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
